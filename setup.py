@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 setup(name='cfservicecredentialbrowser',
-	  version='0.1',
+	  version='0.1.0',
 	  description='IBM Cloud services credentials explorer',
 	  url='https://github.com/ptitzler/cf-service-credential-browser',
 	  install_requires=['pixiedust'],
@@ -9,5 +9,10 @@ setup(name='cfservicecredentialbrowser',
 	  license='Apache 2.0',
 	  packages=find_packages(),
 	  include_package_data=False,
-	  zip_safe=False
+	  zip_safe=False,
+	  classifiers=[
+	   'Development Status :: 4 - Beta',
+	   'Programming Language :: Python :: 3.5'
+	  ],
+	  python_requires='>=3.5'
 )

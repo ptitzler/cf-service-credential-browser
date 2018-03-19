@@ -14,8 +14,8 @@
 # limitations under the License.
 # -------------------------------------------------------------------------------
 
-from cfscollector import Collector
-from cfsvisualizer import Visualizer
+from scollector import Collector
+from svisualizer import Visualizer
 
 class Browser:
     def __init__(self, ibm_cloud_user_api_token=None, ibmid=None, password=None, **kwargs):

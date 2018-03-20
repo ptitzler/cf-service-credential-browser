@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
-setup(name='cfservicecredentialbrowser',
+setup(name='cfservices',
 	  version='0.1.0',
-	  description='IBM Cloud services credentials explorer',
+	  description='IBM Cloud services credential browser',
 	  url='https://github.com/ptitzler/cf-service-credential-browser',
 	  install_requires=['pixiedust', 'pandas','requests'],
 	  author='Patrick Titzler',
